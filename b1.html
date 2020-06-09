@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+ let diemvatli = prompt( " Nhập điểm vậy lí ");
+ let diemhoahoc = prompt(" Nhập điểm hóa học ");
+ let diemsinhhoc = prompt(" Nhập điểm sinh học ");
+ let diemVatLi = parseFloat(diemvatli);
+ let diemHoaHoc = parseFloat(diemhoahoc);
+ let diemSinhHoc = parseFloat(diemhoahoc);
+ let diemTB = (diemVatLi + diemHoaHoc + diemSinhHoc ) / 3
+ let tongDiem = (diemVatLi + diemSinhHoc + diemHoaHoc);
+    alert(" Điểm trung bình là = " + diemTB);
+    alert(" Tổng điểm ba môn là = " + tongDiem);
+</script>
+</body>
+</html>
